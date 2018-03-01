@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-prismjs-md",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "parcel plugin for markdown & prismjs highlight",
   "main": "src/index.js",
   "repository": "https://github.com/etamity/parcel-plugin-prismjs-md.git",
