@@ -1,0 +1,35 @@
+{
+  "name": "parcel-plugin-prismjs-md",
+  "version": "1.0.1",
+  "description": "parcel plugin for markdown & prismjs highlight",
+  "main": "src/index.js",
+  "repository": "https://github.com/etamity/parcel-plugin-prismjs-md.git",
+  "author": "Joey.Etamity <etamity@gmail.com>",
+  "keywords": [
+    "parcel",
+    "parcel-plugin",
+    "parcel-plugin-markdown",
+    "markdown-to-html"
+  ],
+  "scripts": {
+    "dev": "parcel demo.html",
+    "lint": "eslint ./src",
+    "build": "parcel build demo.html"
+  },
+  "dependencies": {
+    "marked": "^0.3.16",
+    "prismjs": "^1.11.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.18.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "parcel-bundler": "^1.6.2",
+    "parcel-plugin-md": "^1.0.0"
+  }
+}
